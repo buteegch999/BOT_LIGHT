@@ -1,0 +1,19 @@
+{
+  "name": "discord-play-afk-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with Play.Hosting queue and AFK Minecraft bot",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.0",
+    "node-fetch": "^3.3.2",
+    "mineflayer": "^4.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
